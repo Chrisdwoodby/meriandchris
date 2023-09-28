@@ -27,11 +27,16 @@ export default function Navigation(props) {
     </Container> */}
     <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+          <Offcanvas.Title>Menu</Offcanvas.Title>
         </Offcanvas.Header>
-        <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
+        <Offcanvas.Body className="menu-body">
+          <div className="modal-body">
+            <a>When and Where</a>
+            <a>What to Wear</a>
+            <a>Schedule</a>
+            <a>Registry</a>
+            <a>Nearby Lodging</a>
+          </div>
         </Offcanvas.Body>
     </Offcanvas>
    </div>

@@ -3,6 +3,7 @@ import React, {useState} from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import map from '../media/map.png';
 import { ElfsightWidget } from 'react-elfsight-widget';
 
 export default function Home(props) {
@@ -41,27 +42,47 @@ export default function Home(props) {
         <div className="home-banner">
           <Col className="bannerLeft" md={6}>
 
-          <h2 className="form-title">Please Confirm Your Email Address</h2>
+          <h2 className="form-title"><b>Please confirm your email address</b> so that we can let you know when it is time to RSVP.</h2>
             <ElfsightWidget className="form" widgetID="7c116791-a047-4a26-8dd8-2cb68dece206" />
           </Col>
           <Col className="bannerRight" md={6}>
               <div className="above-knot">
-                 <span>Saturday April 6th 2024</span>
+                 <span>Saturday, April 6, 2024</span>
               </div>
               <div className="below-knot">
-                  <span>1000 Southcreek Dr, Round Rock, TX 78664</span>
+                  <span>1000 Southcreek Dr <br></br>Round Rock, TX 78664</span>
               </div>
           </Col>
         </div>
         <div id="date-outer">
-                <h2>Countdown to Forever</h2>
+                <h2 className="headings">Countdown to Forever</h2>
                 <span id="countdown"></span>
         </div>
-        <div className="home-paragraph">
+        <div className="home-paragraph ">
           <Container>
             <Row>
+              <Col className="message-cols box shadow" md={6}>
+                  <h3 className="headings">The Venue | Kinningham House</h3>
+                  <article>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repudiandae, soluta, ea totam architecto mollitia dicta
+                    cupiditate impedit fugiat quod ipsa temporibus quos est
+                    quo explicabo delectus accusantium tenetur. Autem, totam.
+                  </article>
+                  <button className="cta">View on Map</button>
+              </Col>
               <Col md={6}>
-                  <h3>Heading Here</h3>
+                  <img className="heartmap" src={map}/>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div className="home-paragraph-2">
+          <Container>
+            <Row>
+              <Col md={6}></Col>
+              <Col className="message-cols box shadow" md={6}>
+                  <h3 className="headings">The Schedule</h3>
                   <article>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Repudiandae, soluta, ea totam architecto mollitia dicta
@@ -69,7 +90,6 @@ export default function Home(props) {
                     quo explicabo delectus accusantium tenetur. Autem, totam.
                   </article>
               </Col>
-              <Col md={6}></Col>
             </Row>
           </Container>
         </div>
