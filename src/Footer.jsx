@@ -6,13 +6,13 @@ import Col from 'react-bootstrap/Col';
 
 export default function Footer () {
     return (
-        <div>
+        <div className="footer-main">
            <Container>
              <Row>
-                 <Col className="header-logo-container" md="6">
+                 <Col></Col>
+                 <Col className="footer-logo-container" md="6">
                    <img id="header-logo" src={logo}/>
                  </Col>
-                 <Col></Col>
                  <Col></Col>
              </Row>
            </Container> 
