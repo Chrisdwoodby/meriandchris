@@ -62,6 +62,8 @@
     font-size: 20px;
     margin-top: 25px;
     padding: 0px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
     letter-spacing: 5px;
     font-family: 'Montserrat', sans-serif;
@@ -128,7 +130,7 @@
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 60px 0px;
+    padding: 60px 0px 10px 0px;
     background:linear-gradient(#0d2d50 ,#10213c);
     display: flex;
     background-position: center bottom; 
@@ -142,7 +144,6 @@
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 60px 0px;
     background:linear-gradient(#10213c ,#10213c);
     display: flex;
     background-position: center bottom; 
