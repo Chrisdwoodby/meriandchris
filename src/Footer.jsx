@@ -9,11 +9,14 @@ export default function Footer () {
         <div className="footer-main">
            <Container>
              <Row>
-                 <Col></Col>
                  <Col className="footer-logo-container" md="6">
                    <img id="header-logo" src={logo}/>
                  </Col>
-                 <Col></Col>
+                 <Col className="registry" md={6}>
+                   <h3>Our Registry</h3>
+                   <article>As our wedding date gets closer, there will be more items to choose between on our registry. Thank you for thinking about ways to commemorate our milestone!</article>
+                   <a id="registry-btn" className="cta" href="https://www.zola.com/registry/christopherandmeri" target="_blank">View Registry</a>
+                 </Col>
              </Row>
            </Container> 
         </div>
