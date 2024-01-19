@@ -123,14 +123,12 @@ window.addEventListener('scroll', function() {
       <div>
         <div className="home-banner">
           <Col className="bannerLeft" md={6}>
-
-          <h2 className="form-title">We are excited to have you be a part of our special day!</h2>
-            <ElfsightWidget className="form" widgetID="7c116791-a047-4a26-8dd8-2cb68dece206" />
-          <h2 className="form-subtitle"><b>Please confirm your email address</b> so that we can let you know when it is time to RSVP.</h2>
+            <ElfsightWidget className="form" widgetID="fbe3b382-215e-4e1a-b0e4-c59502b3ef8e" />
           </Col>
           <Col className="bannerRight" md={6}>
               <div className="above-knot">
                  <span >Saturday, April 6, 2024</span>
+                 <span >The celebration will begin at four in the afternoon.</span>
               </div>
               <div className="below-knot">
                   <span >1000 Southcreek Dr. <br></br>Round Rock, TX 78664</span>
@@ -261,7 +259,7 @@ window.addEventListener('scroll', function() {
             <Col className="message-cols box shadow fade-in-left" md={5}>
                   <h3 className="headings">The Venue | Kinningham House</h3>
                   <article>
-                  The Kinningham House is an event space situated within Kinningham Park and managed by the Round Rock Parks and Recreation Department. It includes both indoor space and covered outdoor space. The bay doors that run along two sides of the building can be opened to connect with the outdoors when the weather is pleasant. The space is used for youth programs throughout the year.
+                  Both the ceremony and reception will take place at the Kinningham House. It is an event space situated within Kinningham Park and managed by the Round Rock Parks and Recreation Department. It includes both indoor space and covered outdoor space. The bay doors that run along two sides of the building can be opened to connect with the outdoors when the weather is pleasant. The space is used for youth programs throughout the year.
                   </article>
                   <button className="cta" onClick={handleShow}>View on Map</button>
                   <Modal show={show} onHide={handleClose}>
